@@ -44,7 +44,7 @@ const App = () => {
           <br />
           <p className="verdict">
             {" "}
-            BRILLIANT KNOWLEDGE IN WORLD RECORD TIMES!!
+            BRILLIANT KNOWLEDGE IN WORLD RECORD HISTORY!!
           </p>
           <img className="outputImage" src={outputImages[0]} alt="" />
         </div>
@@ -53,11 +53,11 @@ const App = () => {
       return (
         <div>
           <p className="attempts"> Total Attempts Taken: {attempts}</p>
-          <h2 className="">Status: Genius</h2>
+          <h2 className="">Status: Intelligent</h2>
           <br />
           <p className="verdict">
             {" "}
-            BRILLIANT KNOWLEDGE IN WORLD RECORD TIMES!!
+            Very knowledgable In World Rrecord History!!
           </p>
           <img className="outputImage" src={outputImages[1]} alt="" />
         </div>
@@ -66,11 +66,11 @@ const App = () => {
       return (
         <div>
           <p className="attempts"> Total Attempts Taken: {attempts}</p>
-          <h2 className="">Status: Genius</h2>
+          <h2 className="">Status: Decent</h2>
           <br />
           <p className="verdict">
             {" "}
-            BRILLIANT KNOWLEDGE IN WORLD RECORD TIMES!!
+            Somewhat Knowledgable In World Record History!!
           </p>
           <img className="outputImage" src={outputImages[2]} alt="" />
         </div>
@@ -79,11 +79,11 @@ const App = () => {
       return (
         <div>
           <p className="attempts"> Total Attempts Taken: {attempts}</p>
-          <h2 className="">Status: Genius</h2>
+          <h2 className="">Status: Below Avera</h2>
           <br />
           <p className="verdict">
             {" "}
-            BRILLIANT KNOWLEDGE IN WORLD RECORD TIMES!!
+            Very Little Knowledge In World Record History!!
           </p>
           <img className="outputImage" src={outputImages[3]} alt="" />
         </div>
@@ -92,11 +92,11 @@ const App = () => {
       return (
         <div>
           <p className="attempts"> Total Attempts Taken: {attempts}</p>
-          <h2 className="">Status: Genius</h2>
+          <h2 className="">Status: Noob</h2>
           <br />
           <p className="verdict">
             {" "}
-            BRILLIANT KNOWLEDGE IN WORLD RECORD TIMES!!
+            No Knowledge Whatsoever in World Record History!!
           </p>
           <img className="outputImage" src={outputImages[4]} alt="" />
         </div>
@@ -135,9 +135,10 @@ const App = () => {
           <br />
           {outputMessage(attempts)}
           <p className="name"> By Geoffrey Lee</p>
+          <p></p>
           <a
             className="git"
-            href="https://github.com/LGeoff31/event-guesser"
+            href="https://github.com/LGeoff31/record-guesser"
             target="_blank"
             rel="noreferrer"
           >
@@ -236,6 +237,15 @@ const App = () => {
             </button>
           </form>
           <p className="name"> By Geoffrey Lee</p>
+          <a
+            className="git"
+            href="https://github.com/LGeoff31/record-guesser"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            GitHub{" "}
+          </a>
         </div>
       )}
     </div>
